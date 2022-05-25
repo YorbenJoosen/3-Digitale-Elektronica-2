@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Wed Dec 15 12:19:12 2021
+# Process ID: 8936
+# Current directory: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.runs/synth_1
+# Command line: vivado.exe -log Bresenham.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Bresenham.tcl
+# Log file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.runs/synth_1/Bresenham.vds
+# Journal file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Bresenham.tcl -notrace

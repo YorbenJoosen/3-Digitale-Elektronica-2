@@ -1,0 +1,5 @@
+Time resolution is 1 ps
+Note: INFO: Starting automated testbench: all error types will only be reported once!
+Time: 0 ps  Iteration: 0  Process: /TB_VGASync/p_TestVSync  File: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/test/VGAFrameBuffer/VGAFrameBuffer.srcs/sim_1/imports/imports/TB_VGASyncs.vhd
+Note: AUTOCHECKLIST<br>1: Heeft je HSync puls de juiste breedte?<br>2: Heeft HSync de juiste periode?<br>3: Heeft je VSync puls de juiste breedte?<br>4: Heeft VSync de juiste periode?<br>5: Wordt de HSync front porch gerespecteerd?<br>6: Wordt de HSync back porch gerespecteerd?<br>7: Wordt de VSync front porch gerespecteerd?<br>8: Wordt de VSync back porch gerespecteerd?
+Time: 0 ps  Iteration: 0  Process: /TB_VGASync/p_TestVSync  File: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/test/VGAFrameBuffer/VGAFrameBuffer.srcs/sim_1/imports/imports/TB_VGASyncs.vhd

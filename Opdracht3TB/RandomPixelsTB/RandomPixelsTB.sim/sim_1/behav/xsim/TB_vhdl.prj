@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../RandomPixelsTB.ip_user_files/ip/VideoMemory/VideoMemory_sim_netlist.vhdl" \
+"../../../../RandomPixelsTB.ip_user_files/ip/ClockingWizard/ClockingWizard_sim_netlist.vhdl" \
+"../../../../RandomPixelsTB.srcs/sources_1/imports/imports/VGAPackage.vhd" \
+"../../../../RandomPixelsTB.srcs/sources_1/imports/imports/LFSRPackage.vhd" \
+"../../../../RandomPixelsTB.srcs/sources_1/imports/imports/Components.vhd" \
+"../../../../RandomPixelsTB.srcs/sources_1/imports/imports/LFSR.vhd" \
+"../../../../RandomPixelsTB.srcs/sources_1/imports/imports/VGAInterface.vhd" \
+"../../../../RandomPixelsTB.srcs/sources_1/imports/imports/VGATiming.vhd" \
+"../../../../RandomPixelsTB.srcs/sources_1/imports/imports/WriteVideoMemory.vhd" \
+"../../../../RandomPixelsTB.srcs/sim_1/imports/imports/TB.vhd" \
+
+# Do not sort compile order
+nosort

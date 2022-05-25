@@ -1,0 +1,94 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Mon Dec 20 12:14:05 2021
+# Process ID: 13944
+# Current directory: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12148 C:\Users\yorbe\Documents\School\3_Basis_Digitale_Elektronica_2\Opdracht4\Bresenham\Bresenham.xpr
+# Log file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/vivado.log
+# Journal file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+run all
+run all
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+run all
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+current_wave_config {TB_behav.wcfg}
+add_wave {{/TB/Error}} 
+current_wave_config {TB_behav.wcfg}
+add_wave {{/TB/DifferenceX}} 
+current_wave_config {TB_behav.wcfg}
+add_wave {{/TB/DifferenceY}} 
+save_wave_config {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+add_bp {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} 88
+remove_bps -file {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} -line 88
+add_bp {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} 88
+remove_bps -file {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} -line 88
+add_bp {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} 88
+run all
+run all
+remove_bps -file {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} -line 88
+add_bp {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} 90
+run all
+run all
+remove_bps -file {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} -line 90
+add_bp {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} 71
+run all
+remove_bps -file {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.srcs/sources_1/imports/imports/Bresenham.vhd} -line 71
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+current_wave_config {TB_behav.wcfg}
+add_wave {{/TB/s_Integer}} 
+save_wave_config {C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg}
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+close_sim
+launch_simulation
+open_wave_config C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/TB_behav.wcfg
+source TB.tcl
+close_sim

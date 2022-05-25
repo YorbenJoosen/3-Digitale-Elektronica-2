@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../ip/ClockingWizard/ClockingWizard_sim_netlist.vhdl" \
+
+nosort

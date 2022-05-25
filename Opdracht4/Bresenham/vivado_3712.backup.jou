@@ -1,0 +1,19 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Tue Dec 14 14:04:16 2021
+# Process ID: 3712
+# Current directory: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13996 C:\Users\yorbe\Documents\School\3_Basis_Digitale_Elektronica_2\Opdracht4\Bresenham\Bresenham.xpr
+# Log file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/vivado.log
+# Journal file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht4/Bresenham/Bresenham.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 6
+wait_on_run synth_1
+launch_runs impl_1 -jobs 6
+wait_on_run impl_1

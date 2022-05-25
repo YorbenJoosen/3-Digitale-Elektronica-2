@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Wed Nov 24 13:18:25 2021
+# Process ID: 9648
+# Current directory: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht2/LFSR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent496 C:\Users\yorbe\Documents\School\3_Basis_Digitale_Elektronica_2\Opdracht2\LFSR\LFSR.xpr
+# Log file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht2/LFSR/vivado.log
+# Journal file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht2/LFSR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht2/LFSR/LFSR.xpr
+launch_simulation
+source TB_LFSR.tcl
+update_compile_order -fileset sources_1
+run all

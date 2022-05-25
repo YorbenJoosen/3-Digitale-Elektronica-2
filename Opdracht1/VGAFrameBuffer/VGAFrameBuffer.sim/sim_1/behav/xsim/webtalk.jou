@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2021.1.1 (64-bit)
+# SW Build 3286242 on Wed Jul 28 13:10:47 MDT 2021
+# IP Build 3279568 on Wed Jul 28 16:48:48 MDT 2021
+# Start of session at: Wed Nov 24 11:24:10 2021
+# Process ID: 3912
+# Current directory: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/test/VGAFrameBuffer/VGAFrameBuffer.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/test/VGAFrameBuffer/VGAFrameBuffer.sim/sim_1/behav/xsim/xsim.dir/TB_VGASync_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/test/VGAFrameBuffer/VGAFrameBuffer.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/test/VGAFrameBuffer/VGAFrameBuffer.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/test/VGAFrameBuffer/VGAFrameBuffer.sim/sim_1/behav/xsim/xsim.dir/TB_VGASync_behav/webtalk/xsim_webtalk.tcl -notrace

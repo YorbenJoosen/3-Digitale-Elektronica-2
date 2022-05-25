@@ -1,0 +1,4 @@
+Time resolution is 1 ps
+Failure: End of simulation. Not an error.
+Time: 1325 ns  Iteration: 0  Process: /TB_LFSR/p_Main  File: C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht2/LFSR/LFSR.srcs/sources_1/imports/imports/TB_LFSR.vhd
+$finish called at time : 1325 ns : File "C:/Users/yorbe/Documents/School/3_Basis_Digitale_Elektronica_2/Opdracht2/LFSR/LFSR.srcs/sources_1/imports/imports/TB_LFSR.vhd" Line 70

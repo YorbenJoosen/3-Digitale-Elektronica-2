@@ -1,0 +1,143 @@
+Vivado Simulator v2021.1.1
+Copyright 1986-1999, 2001-2021 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2021.1/bin/unwrapped/win64.o/xelab.exe -wto d7c4fae1fa4645ea843ff82343d03091 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TB_VGASync_behav xil_defaultlib.TB_VGASync xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.math_real
+Compiling package xil_defaultlib.vgapackage
+Compiling package xil_defaultlib.components
+Compiling package unisim.vcomponents
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package ieee.std_logic_textio
+Compiling module xil_defaultlib.glbl
+Compiling architecture bufg_v of entity unisim.BUFG [bufg_default]
+Compiling architecture ibuf_v of entity unisim.IBUF [\IBUF(1,9)(1,1)(1,4)(1,7)\]
+Compiling architecture mmcme2_adv_v of entity unisim.MMCME2_ADV [\MMCME2_ADV(clkfbout_mult_f=9.0,...]
+Compiling architecture structure of entity xil_defaultlib.ClockingWizard_clk_wiz [clockingwizard_clk_wiz_default]
+Compiling architecture structure of entity xil_defaultlib.ClockingWizard [clockingwizard_default]
+Compiling architecture rtl of entity xil_defaultlib.VGATiming [vgatiming_default]
+Compiling architecture gnd_v of entity unisim.GND [gnd_default]
+Compiling architecture lut5_v of entity unisim.LUT5 [\LUT5(init="00000001000000000000...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_bindec [videomemory_bindec_default]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_bindec_0 [videomemory_bindec_0_default]
+Compiling architecture muxf7_v of entity unisim.MUXF7 [muxf7_default]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="10101111101000001100...]
+Compiling architecture lut6_v of entity unisim.LUT6 [\LUT6(init="00000000000000000000...]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_blk_mem_gen_mux [videomemory_blk_mem_gen_mux_defa...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_mux__parameterized0\ [\VideoMemory_blk_mem_gen_mux__pa...]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00000001")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="00010000")(0,7)\]
+Compiling architecture lut3_v of entity unisim.LUT3 [\LUT3(init="01000000")(0,7)\]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_blk_mem_gen_prim_wrapper_init [videomemory_blk_mem_gen_prim_wra...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_blk_mem_gen_prim_width [videomemory_blk_mem_gen_prim_wid...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture lut4_v of entity unisim.LUT4 [\LUT4(init="0000000000000010")(0...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized9\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized9\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized10\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized10\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized11\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized11\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized12\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized12\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized13\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized13\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized14\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized14\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized15\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized15\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized0\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized0\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized1\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized1\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized2\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized2\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized3\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized3\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb18_internal_vhdl_v of entity unisim.RB18_INTERNAL_VHDL [\RB18_INTERNAL_VHDL(bram_size=18...]
+Compiling architecture ramb18e1_v of entity unisim.RAMB18E1 [\RAMB18E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized4\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized4\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized5\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized5\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized6\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized6\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized7\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized7\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture rb36_internal_vhdl_v of entity unisim.RB36_INTERNAL_VHDL [\RB36_INTERNAL_VHDL(doa_reg=1,do...]
+Compiling architecture ramb36e1_v of entity unisim.RAMB36E1 [\RAMB36E1(doa_reg=1,dob_reg=1,in...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_wrapper_init__parameterized8\ [\VideoMemory_blk_mem_gen_prim_wr...]
+Compiling architecture structure of entity xil_defaultlib.\VideoMemory_blk_mem_gen_prim_width__parameterized8\ [\VideoMemory_blk_mem_gen_prim_wi...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_blk_mem_gen_generic_cstr [videomemory_blk_mem_gen_generic_...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_blk_mem_gen_top [videomemory_blk_mem_gen_top_defa...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_blk_mem_gen_v8_4_4_synth [videomemory_blk_mem_gen_v8_4_4_s...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory_blk_mem_gen_v8_4_4 [videomemory_blk_mem_gen_v8_4_4_d...]
+Compiling architecture structure of entity xil_defaultlib.VideoMemory [videomemory_default]
+Compiling architecture rtl of entity xil_defaultlib.VGAInterface [vgainterface_default]
+Compiling architecture sim of entity xil_defaultlib.tb_vgasync
+Built simulation snapshot TB_VGASync_behav
